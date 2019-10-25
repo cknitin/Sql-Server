@@ -34,13 +34,13 @@ T1 get some rows of data from a table. T2 inserts a new row into the same table,
 
 
 
-| Isolation Level | Dirty Read | Nonrepeatable read | Phantom read |
-|----------------------------------------------------------------------------------------|
-| READ UNCOMMITTED    |   Yes      |      Yes           |     Yes      
-| READ COMMITTED      |   No       |      Yes           |     Yes      
-| REPEATABLE READ     |   No       |      No            |     Yes  
-| SERIALIZABLE        |   No       |      No            |     No             
-| SNAPSHOT            |   No       |      No            |     No  
+| Isolation Level     | Dirty Read | Nonrepeatable read | Phantom read |
+|---------------------|------------|--------------------|--------------|
+| READ UNCOMMITTED    |   Yes      |      Yes           |     Yes      |    
+| READ COMMITTED      |   No       |      Yes           |     Yes      |    
+| REPEATABLE READ     |   No       |      No            |     Yes      |
+| SERIALIZABLE        |   No       |      No            |     No       |          
+| SNAPSHOT            |   No       |      No            |     No       |
 
 
 | Syntax      | Description | Test Text     |
