@@ -43,10 +43,6 @@ T1 get some rows of data from a table. T2 inserts a new row into the same table,
 | SNAPSHOT            |   No       |      No            |     No       |
 
 
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
 
 
 
