@@ -26,8 +26,10 @@
 Transaction T1 modified some data, after the modification transaction T2 read this modified data before the comit of transaction T1.
 
 #### Nonrepeatable read
+Transaction T1 get a row of data from a table. T2 updates that row. T1 tries to get this row again in the same transaction, but get diffrent result because of the T2 modified that data.
 
 
 #### Phantom read 
+T1 get some rows of data from a table. T2 inserts a new row into the same table, Now T1 perform same query with same condition but get extra row , this extra row called phantom row.
 
    
