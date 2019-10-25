@@ -32,4 +32,22 @@ Transaction T1 get a row of data from a table. T2 updates that row. T1 tries to 
 #### Phantom read 
 T1 get some rows of data from a table. T2 inserts a new row into the same table, Now T1 perform same query with same condition but get extra row , this extra row called phantom row.
 
+
+---------------------------------------------------------------------------------------
+Isolation Level     | Dirty Read | Nonrepeatable read | Phantom read 
+---------------------------------------------------------------------------------------
+READ UNCOMMITTED    |   Yes      |      Yes           |     Yes      
+---------------------------------------------------------------------------------------
+READ COMMITTED      |   No       |      Yes           |     Yes      
+---------------------------------------------------------------------------------------
+REPEATABLE READ     |   No       |      No            |     Yes  
+---------------------------------------------------------------------------------------
+SERIALIZABLE        |   No       |      No            |     No             
+---------------------------------------------------------------------------------------
+SNAPSHOT            |   No       |      No            |     No  
+---------------------------------------------------------------------------------------
+
+
+
+
    
